@@ -7,6 +7,8 @@ on:
   schedule:
     - cron: "17 * * * *"   # de hora em hora (UTC)
   workflow_dispatch:
+  push:                    # Claude publicou do Mac → roda na hora (fecha avisos resolvidos)
+    branches: [main]
 
 permissions:
   contents: write

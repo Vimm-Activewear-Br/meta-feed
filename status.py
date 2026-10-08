@@ -43,13 +43,20 @@ def build(errors=None, photo_changes=None):
     products.sort(key=lambda x: (x["status"] != "sem_foto", x["status"] != "fora_canal", x["kind"], x["title"]))
 
     alerts = []
-    for x in products:
-        if x["status"] == "sem_foto": alerts.append({"level": "acao", "text": f"Produto novo sem foto quadrada: {x['title']}. Peça ao Claude: atualiza o feed do Meta."})
-        if x["status"] == "fora_canal": alerts.append({"level": "info", "text": f"Fora do canal Facebook & Instagram (não entra no catálogo): {x['title']}"})
-    for t in photo_changes or []:
-        alerts.append({"level": "acao", "text": f"Fotos alteradas na Shopify: {t}. Peça ao Claude: refaz as fotos quadradas do feed."})
+    WHERE = "Pasta ~/Vimm/meta-feed (siga o RUNBOOK.md e a seção 8 da skill vimm-shopify-nova-cor)."
+    novos = [x["title"] for x in products if x["status"] == "sem_foto"]
+    if novos:
+        alerts.append({"level": "acao", "text": f"Produto(s) novo(s) sem foto quadrada: {', '.join(novos)}.",
+                       "command": f"Atualiza o feed do Meta da Vimm: faz as fotos quadradas (principal e adicionais) e coloca no feed os produtos novos: {'; '.join(novos)}. {WHERE}"})
+    if photo_changes:
+        alerts.append({"level": "acao", "text": f"Fotos alteradas na Shopify: {', '.join(photo_changes)}.",
+                       "command": f"Refaz as fotos quadradas do feed do Meta da Vimm porque as fotos mudaram na Shopify: {'; '.join(photo_changes)}. Depois tira esses produtos de state/photos_changed.json e publica. {WHERE}"})
     for e in errors or []:
-        alerts.append({"level": "erro", "text": e})
+        alerts.append({"level": "erro", "text": e,
+                       "command": f"Verifica e corrige o erro da automação do feed do Meta da Vimm: {e} Veja state/auto_refresh.log e a aba Actions do repositório Vimm-Activewear-Br/meta-feed. {WHERE}"})
+    for x in products:
+        if x["status"] == "fora_canal":
+            alerts.append({"level": "info", "text": f"Fora do canal Facebook & Instagram (não entra no catálogo): {x['title']}"})
 
     status = {
         "feed_url": FEED_URL, "rows": len(rows), "products_in_feed": len({x["id"] for x in products if x["status"] == "no_feed"}),

@@ -36,6 +36,10 @@
   .alert.acao { border-color: var(--yellow); }
   .alert.erro { border-color: var(--red); }
   .alert small { display: block; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 11px; color: var(--brown); }
+  .cmd { margin-top: 10px; display: grid; gap: 8px; }
+  .cmd code { display: block; background: var(--off); padding: 10px 12px; border-radius: 4px; font: 500 13px/1.4 Satoshi, sans-serif; }
+  .cmd button { justify-self: start; font: 700 13px Satoshi, sans-serif; background: var(--black); color: var(--off); border: 0;
+    border-radius: 999px; padding: 8px 14px; cursor: pointer; }
   .ok { background: var(--card); padding: 14px; border-radius: 2px; }
   .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
   .filters button { font: 500 13px Satoshi, sans-serif; border: 1px solid var(--black); background: transparent; color: var(--black);
@@ -100,8 +104,9 @@ fetch("status.json?" + Date.now()).then(r => r.json()).then(s => {
 
     <h2>Avisos</h2>
     ${s.alerts.length ? `<div class="alerts">${s.alerts.map(a => `<div class="alert ${a.level}">
-        <small>${a.level === "acao" ? "Ação" : a.level === "erro" ? "Erro" : "Info"}</small>${esc(a.text)}</div>`).join("")}</div>`
-      : `<div class="ok">Tudo certo. Nenhum produto pendente →</div>`}
+        <small>${a.level === "acao" ? "Ação" : a.level === "erro" ? "Erro" : "Info"}</small>${esc(a.text)}
+        ${a.command ? `<div class="cmd"><code>${esc(a.command)}</code><button data-cmd="${esc(a.command)}">Copiar comando para o Claude</button></div>` : ""}</div>`).join("")}</div>`
+      : `<div class="ok">Tudo certo. Nada para fazer agora →</div>`}
 
     <h2>Produtos</h2>
     <div class="filters" id="filters"></div>
@@ -138,6 +143,10 @@ fetch("status.json?" + Date.now()).then(r => r.json()).then(s => {
         </div></a>`;
     }).join("");
   };
+  app.addEventListener("click", e => {
+    const b = e.target.closest("button[data-cmd]"); if (!b) return;
+    navigator.clipboard.writeText(b.dataset.cmd).then(() => { b.textContent = "Copiado →"; setTimeout(() => b.textContent = "Copiar comando para o Claude", 2000); });
+  });
   fbox.addEventListener("click", e => { const b = e.target.closest("button"); if (b) { active = b.dataset.k; draw(); } });
   draw();
 }).catch(() => { document.getElementById("app").textContent = "Não consegui carregar o status agora. Tente recarregar a página."; });

@@ -31,7 +31,7 @@ def post(url, body, headers=None):
 
 def slack(text):
     url = os.environ.get("SLACK_WEBHOOK_URL")
-    if url: post(url, {"text": "<!here> " + text})  # #processos has just the team: ping whoever is online
+    if url: post(url, {"text": ("" if text.startswith("✅") else "<!here> ") + text})  # #processos has just the team: ping whoever is online
 
 def todoist(content, description):
     token = os.environ.get("TODOIST_TOKEN")
@@ -50,24 +50,43 @@ def todoist(content, description):
         req = urllib.request.Request(f"https://api.todoist.com/api/v1/projects/{project_id}/collaborators", headers=auth)
         with urllib.request.urlopen(req, timeout=30) as r:
             people = {c["email"].lower(): c["id"] for c in json.load(r).get("results", [])}
+    ids = []
     for uid in ([people.get(e) for e in emails if people.get(e)] or [None]):
         body = {"content": content, "description": description, "project_id": project_id}
         if uid: body["assignee_id"] = uid
-        post("https://api.todoist.com/api/v1/tasks", body, auth)
+        ids.append(post("https://api.todoist.com/api/v1/tasks", body, auth)["id"])
+    return ids
+
+def close_todoist(task_ids):
+    token = os.environ.get("TODOIST_TOKEN")
+    if not token: return
+    for tid in task_ids:
+        post(f"https://api.todoist.com/api/v1/tasks/{tid}/close", {}, {"Authorization": f"Bearer {token}"})
 
 def notify_new_actions(alerts):
-    """Send each 'ação'/'erro' alert once; forget alerts that went away so they can fire again later."""
-    sent = set(load("state/notified.json", []))
-    current = [a["text"] for a in alerts if a["level"] in ("acao", "erro")]
-    for text in current:
+    """Each 'ação'/'erro' alert: sent once (Slack + Todoist, with the exact command for Claude).
+    When it disappears (Claude did the work and pushed), its Todoist tasks are closed and Slack gets a ✅."""
+    sent = load("state/notified.json", {})
+    if isinstance(sent, list): sent = {t: {"todoist": []} for t in sent}
+    current = {a["text"]: a for a in alerts if a["level"] in ("acao", "erro")}
+    for text, a in current.items():
         if text in sent: continue
+        cmd = a.get("command", "")
         try:
-            slack(f"*Vimm · feed do Meta*: {text}\nPainel: {DASHBOARD}")
-            todoist(f"Feed do Meta: {text[:180]}", f"{text}\n\nPainel: {DASHBOARD}")
-            sent.add(text)
+            slack(f"*Vimm · feed do Meta*: {text}\nCole no Claude (no Mac da Mariana):\n```{cmd}```\nPainel: {DASHBOARD}")
+            ids = todoist(f"Feed do Meta: {text[:180]}", f"Cole no Claude (no Mac da Mariana):\n\n{cmd}\n\nPainel: {DASHBOARD}") or []
+            sent[text] = {"todoist": ids}
         except Exception as e:
             log(f"falha ao avisar Slack/Todoist: {e!r}")
-    json.dump(sorted(t for t in sent if t in current), open("state/notified.json", "w"), ensure_ascii=False, indent=1)
+    for text in [t for t in sent if t not in current]:
+        try:
+            close_todoist(sent[text].get("todoist", []))
+            slack(f"✅ Resolvido: {text}")
+            log(f"aviso resolvido: {text}")
+            del sent[text]
+        except Exception as e:
+            log(f"falha ao fechar aviso: {e!r}")
+    json.dump(sent, open("state/notified.json", "w"), ensure_ascii=False, indent=1)
 
 def main():
     bazar = sorted(str(p["id"]) for p in get_json(f"{STORE}/collections/sale/products.json?limit=250")["products"])
