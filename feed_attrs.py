@@ -48,11 +48,22 @@ def labels(a):
 FIELDS = ["color", "size", "gender", "age_group", "material", "google_product_category", "product_type",
           "is_outfit_set", "size_system", "custom_label_1", "custom_label_2", "custom_label_3", "custom_label_4"]
 
-def row_extra(pid, variant):
+# Main variant per product (custom_label_1 = "principal"): a middle size that is in stock, so product sets
+# filtered on it show each product once. Re-chosen every run, so it follows stock.
+SIZE_PREF = {"M": 0, "P": 1, "G": 2, "PP": 3, "GG": 4,
+             "38": 0, "36": 1, "40": 2, "34": 3, "42": 4, "44": 5, "46": 6}
+
+def main_variant_id(variants):
+    def score(v):
+        return sum(SIZE_PREF.get(part.strip().upper(), 9) for part in (v.get("title") or "").split("/"))
+    pool = [v for v in variants if v.get("available")] or variants
+    return min(pool, key=lambda v: (score(v), v["id"]))["id"] if pool else None
+
+def row_extra(pid, variant, is_main=False):
     a = A[pid]; k = kind(a["title"]); linha, momento = labels(a)
     size = variant.get("title") or ""
     if size.lower() in ("default title", ""): size = "Único"
     return [color(a), size, "female", "adult", material(a.get("material")),
             CAT_OUTFIT_SET if k == "conjunto" else CAT_ACTIVEWEAR, PRODUCT_TYPE[k],
             "Yes" if k == "conjunto" else "No", "BR",
-            color(a).lower(), k, linha, momento]
+            "principal" if is_main else "variante", k, linha, momento]

@@ -7,7 +7,7 @@ Scope = state/products.json, written by refresh_products.py from state/rules.jso
 import json, csv
 from fetch import get_json
 from short_desc import short_description
-from feed_attrs import FIELDS, row_extra
+from feed_attrs import FIELDS, row_extra, main_variant_id
 
 STORE = "https://www.vimmactivewear.com"
 LABEL = "vimm_feed"
@@ -40,10 +40,11 @@ for pid, u in up.items():
     if not s: print("skip (not on storefront):", u["title"]); continue
     if pid not in scope: continue  # excluded by rules / Bazar (see state/excluded.json)
     if pid in not_on_fb: print("skip (not on Facebook & Instagram channel):", u["title"]); continue
+    main_id = main_variant_id([v for v in s["variants"] if float(v["price"]) >= min_price])
     for v in s["variants"]:
         if float(v["price"]) < min_price: continue
         rows.append([str(v["id"]), image_link(u["url"]), additional_links(pid), short_description(s["title"]), LABEL]
-                    + row_extra(pid, v))
+                    + row_extra(pid, v, v["id"] == main_id))
 
 # Same layout as Meta's catalog template: a "#" comment row, then field names, then data.
 COMMENTS = ["# Obrigatório | A unique content ID for the item.",

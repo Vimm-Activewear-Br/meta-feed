@@ -44,7 +44,7 @@ Published by the hourly workflow or by `./publish_feed.sh` after local Claude wo
 | `upload_staged.py` | POSTs files to the targets from a `stagedUploadsCreate` response |
 | `build_feed.py` | builds the CSV from `state/uploaded.json` + live variants from the storefront, skipping Bazar |
 | `additional.py` | extra photos: squares the clean ones (≠ main) → `state/additional_plan.json`, `out_add/`, `state/review_add.jpg` |
-| `feed_attrs.py` | color, size, gender, age_group, material, google_product_category (conjuntos = Outfit Sets), product_type, is_outfit_set, size_system, custom_label_1–4 |
+| `feed_attrs.py` | color, size, gender, age_group, material, google_product_category (conjuntos = Outfit Sets), product_type, is_outfit_set, size_system, custom_label_1 = principal/variante (1 tamanho do meio em estoque por produto), custom_label_2–4 |
 | `short_desc.py` | short_description per product type, ≤ 60 chars |
 | `state/bazar.json` | ACTIVE products in the BAZAR collection |
 | `state/rules.json` | who's left out of the feed: id list, min price, test words, tags |
