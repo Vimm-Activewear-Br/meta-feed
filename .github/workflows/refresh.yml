@@ -29,6 +29,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           TODOIST_TOKEN: ${{ secrets.TODOIST_TOKEN }}
           TODOIST_PROJECT: PROCESSOS
+          TODOIST_ASSIGNEES: ${{ vars.TODOIST_ASSIGNEES }}
           TZ: America/Sao_Paulo
         run: python auto_refresh.py
       - name: Publica se mudou

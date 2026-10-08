@@ -31,7 +31,7 @@ def post(url, body, headers=None):
 
 def slack(text):
     url = os.environ.get("SLACK_WEBHOOK_URL")
-    if url: post(url, {"text": text})
+    if url: post(url, {"text": "<!here> " + text})  # #processos has just the team: ping whoever is online
 
 def todoist(content, description):
     token = os.environ.get("TODOIST_TOKEN")
@@ -42,7 +42,18 @@ def todoist(content, description):
         projects = json.load(r).get("results", [])
     match = [p for p in projects if p["name"].strip().lower() == TODOIST_PROJECT.lower()]
     project_id = match[0]["id"] if match else post("https://api.todoist.com/api/v1/projects", {"name": TODOIST_PROJECT}, auth)["id"]
-    post("https://api.todoist.com/api/v1/tasks", {"content": content, "description": description, "project_id": project_id}, auth)
+    # TODOIST_ASSIGNEES = e-mails (comma-separated) of people in the shared project. Todoist allows one
+    # responsible per task, so each e-mail gets its own copy of the task; empty = one unassigned task.
+    emails = [e.strip().lower() for e in os.environ.get("TODOIST_ASSIGNEES", "").split(",") if e.strip()]
+    people = {}
+    if emails:
+        req = urllib.request.Request(f"https://api.todoist.com/api/v1/projects/{project_id}/collaborators", headers=auth)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            people = {c["email"].lower(): c["id"] for c in json.load(r).get("results", [])}
+    for uid in ([people.get(e) for e in emails if people.get(e)] or [None]):
+        body = {"content": content, "description": description, "project_id": project_id}
+        if uid: body["assignee_id"] = uid
+        post("https://api.todoist.com/api/v1/tasks", body, auth)
 
 def notify_new_actions(alerts):
     """Send each 'ação'/'erro' alert once; forget alerts that went away so they can fire again later."""
