@@ -8,6 +8,10 @@ runs `auto_refresh.py`: reads the public storefront + the BAZAR collection (/col
 rebuilds the CSV + `status.json`, and commits only if something changed. Log: `state/auto_refresh.log`.
 Things that need Claude become "ação" alerts on the dashboard and go once to Slack (secret `SLACK_WEBHOOK_URL`, channel
 #processos) and Todoist (secret `TODOIST_TOKEN`, project PROCESSOS):
+Each alert carries the exact command to paste into Claude (also on the dashboard, with a copy button). When the alert
+disappears (Claude did the work and pushed → the push triggers the workflow), its Todoist tasks are closed and Slack
+gets "✅ Resolvido". Sent alerts + Todoist task ids: `state/notified.json`. Optional repo variable `TODOIST_ASSIGNEES`
+(e-mails, comma-separated; one task per person). Alert types:
 - new products without square images (`state/pending_new.json`);
 - photos changed on Shopify (`state/photos_changed.json`, compared with `state/images_snapshot.json`). After redoing
   those squares, remove the product titles from `state/photos_changed.json`.
