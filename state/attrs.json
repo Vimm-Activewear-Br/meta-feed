@@ -1,0 +1,938 @@
+{
+ "8271577972974": {
+  "title": "Bermuda de compressão preta",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8293708923118": {
+  "title": "Top-blusa de compressão preta",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8598841688302": {
+  "title": "Bermuda de compressão marinho",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8598842147054": {
+  "title": "Top-blusa de compressão marinho",
+  "type": "Tops",
+  "tags": [
+   "badge: POUCAS UNIDADES",
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8598893494510": {
+  "title": "Conjunto bermuda + top-blusa de compressão marinho",
+  "type": "Kits",
+  "tags": [
+   "KIT",
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda"
+  ]
+ },
+ "8664969183470": {
+  "title": "Conjunto bermuda + top-blusa de compressão preto",
+  "type": "Kits",
+  "tags": [
+   "KIT",
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda"
+  ]
+ },
+ "8710092554478": {
+  "title": "Envelope para presente",
+  "type": "",
+  "tags": [],
+  "color": null,
+  "material": null,
+  "aviso": null,
+  "options": [
+   "Title"
+  ]
+ },
+ "8853532770542": {
+  "title": "Bermuda de compressão curtinha preta",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8857900548334": {
+  "title": "Top nadador de compressão grafite",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Grafite",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| essa cor não volta mais, últimas unidades",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8857971622126": {
+  "title": "Top nadador de compressão marinho",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8857973915886": {
+  "title": "Top nadador de compressão preto",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8916984365294": {
+  "title": "Bermuda de compressão curtinha marinho",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8934468583662": {
+  "title": "Bermuda de compressão bordô",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Bordô",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| essa cor não volta mais, últimas unidades",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8934469173486": {
+  "title": "Top nadador de compressão bordô",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Bordô",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| essa cor não volta mais, últimas unidades",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8934469599470": {
+  "title": "Bermuda de compressão curtinha bordô",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Bordô",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| essa cor não volta mais, últimas unidades",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "8934474907886": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão preto",
+  "type": "Kits",
+  "tags": [
+   "KIT",
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Top nadador de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda curtinha"
+  ]
+ },
+ "8934475071726": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão marinho",
+  "type": "Kits",
+  "tags": [
+   "KIT",
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Top nadador de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda curtinha"
+  ]
+ },
+ "9234560549102": {
+  "title": "Top-blusa de compressão com 6 bolsos preto",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9234564219118": {
+  "title": "Top nadador de compressão com bolso branco",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9234564776174": {
+  "title": "Top nadador de compressão com bolso marinho",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9234565071086": {
+  "title": "Top nadador de compressão com bolso preto",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9235891749102": {
+  "title": "Top-blusa de compressão branco",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9235902169326": {
+  "title": "Top-blusa de compressão com 6 bolsos marinho",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9235903283438": {
+  "title": "Top-blusa de compressão com 6 bolsos branco",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9244616392942": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão com 6 bolsos marinho",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda curtinha"
+  ]
+ },
+ "9244617867502": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão com 6 bolsos preto",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Bermuda curtinha",
+   "Top-blusa com 6 bolsos"
+  ]
+ },
+ "9244620390638": {
+  "title": "Conjunto bermuda + top-blusa de compressão com 6 bolsos preto",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda"
+  ]
+ },
+ "9244621209838": {
+  "title": "Conjunto bermuda + top-blusa de compressão com 6 bolsos marinho",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda"
+  ]
+ },
+ "9244623569134": {
+  "title": "Conjunto bermuda + top nadador de compressão com bolso marinho",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda"
+  ]
+ },
+ "9244680749294": {
+  "title": "Conjunto bermuda + top nadador de compressão com bolso preto",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda"
+  ]
+ },
+ "9244682584302": {
+  "title": "Conjunto bermuda curtinha + top nadador de compressão com bolso marinho",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Marinho",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda curtinha"
+  ]
+ },
+ "9244746744046": {
+  "title": "Conjunto bermuda curtinha + top nadador de compressão com bolso preto",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda curtinha"
+  ]
+ },
+ "9245916791022": {
+  "title": "Conjunto bermuda preta + top-blusa de compressão branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda"
+  ]
+ },
+ "9245922754798": {
+  "title": "Conjunto bermuda curtinha preta + top-blusa de compressão branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa",
+   "Bermuda curtinha"
+  ]
+ },
+ "9245937467630": {
+  "title": "Conjunto bermuda preta + top nadador de compressão com bolso branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda"
+  ]
+ },
+ "9245952868590": {
+  "title": "Conjunto bermuda curtinha preta + top nadador de compressão com bolso branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda curtinha"
+  ]
+ },
+ "9245957619950": {
+  "title": "Conjunto bermuda preta + top-blusa de compressão com 6 bolsos branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda"
+  ]
+ },
+ "9245962502382": {
+  "title": "Conjunto bermuda curtinha preta + top-blusa de compressão com 6 bolsos branco",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Branco/Preto",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": null,
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda curtinha"
+  ]
+ },
+ "9306928742638": {
+  "title": "Bermuda de compressão curtinha amora",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify",
+   "ÚLTIMAS PEÇAS"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9306928775406": {
+  "title": "Bermuda de compressão amora",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify",
+   "ÚLTIMAS PEÇAS"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9306928808174": {
+  "title": "Top nadador de compressão com bolso amora",
+  "type": "Tops",
+  "tags": [
+   "Klubify",
+   "ÚLTIMAS PEÇAS"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9306928840942": {
+  "title": "Top-blusa de compressão amora",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9306928906478": {
+  "title": "Top-blusa de compressão com 6 bolsos amora",
+  "type": "Tops",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9312214352110": {
+  "title": "Conjunto bermuda + top-blusa de compressão com 6 bolsos amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Bermuda",
+   "Top-blusa com 6 bolsos"
+  ]
+ },
+ "9312307937518": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão com 6 bolsos amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Bermuda curtinha",
+   "Top-blusa com 6 bolsos"
+  ]
+ },
+ "9312311148782": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Top nadador de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Bermuda curtinha",
+   "Top-blusa"
+  ]
+ },
+ "9312317604078": {
+  "title": "Conjunto bermuda + top-blusa de compressão amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Bermuda",
+   "Top-blusa"
+  ]
+ },
+ "9312318783726": {
+  "title": "Conjunto bermuda + top nadador de compressão com bolso amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Bermuda",
+   "Top nadador com bolso"
+  ]
+ },
+ "9312319209710": {
+  "title": "Conjunto bermuda curtinha + top nadador de compressão com bolso amora",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Amora",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda curtinha"
+  ]
+ },
+ "9495239459054": {
+  "title": "Top nadador de compressão com bolso chocolate",
+  "type": "Tops",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495239524590": {
+  "title": "Top-blusa de compressão com 6 bolsos chocolate",
+  "type": "Tops",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495239590126": {
+  "title": "Top-blusa de compressão chocolate",
+  "type": "Tops",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495239655662": {
+  "title": "Bermuda de compressão chocolate",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495239819502": {
+  "title": "Bermuda de compressão curtinha chocolate",
+  "type": "Bermudas",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495240048878": {
+  "title": "Manguito chocolate",
+  "type": "Acessórios",
+  "tags": [
+   "Klubify",
+   "NOVIDADE"
+  ],
+  "color": "Chocolate",
+  "material": "87% Poliamida\n13% Elastano\n\nCertificação Oeko-Tex®️ Standard 100: seguro para a pele e livre de substâncias tóxicas.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Tamanho"
+  ]
+ },
+ "9495240179950": {
+  "title": "Garrafinha curvada",
+  "type": "Acessórios",
+  "tags": [
+   "Klubify"
+  ],
+  "color": null,
+  "material": null,
+  "aviso": null,
+  "options": [
+   "Title"
+  ]
+ },
+ "9509360697582": {
+  "title": "Kit 2 bermudas do seu jeito",
+  "type": "Kits",
+  "tags": [
+   "bundle"
+  ],
+  "color": null,
+  "material": "Bermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": null,
+  "options": [
+   "Title"
+  ]
+ },
+ "9529868681454": {
+  "title": "Macaquinho de triathlon Volta + Vimm",
+  "type": "Collab",
+  "tags": [
+   "Klubify",
+   "PRÉ-LANÇAMENTO"
+  ],
+  "color": null,
+  "material": null,
+  "aviso": null,
+  "options": [
+   "Tamanho",
+   "Customização"
+  ]
+ },
+ "9542154158318": {
+  "title": "Conjunto bermuda + top nadador de compressão com bolso chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda"
+  ]
+ },
+ "9542155337966": {
+  "title": "Conjunto bermuda curtinha + top nadador de compressão com bolso chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top nadador com bolso",
+   "Bermuda curtinha"
+  ]
+ },
+ "9542159040750": {
+  "title": "Conjunto bermuda + top-blusa de compressão chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa",
+   "Bermuda"
+  ]
+ },
+ "9542159433966": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa",
+   "Bermuda curtinha"
+  ]
+ },
+ "9542159728878": {
+  "title": "Conjunto bermuda + top-blusa de compressão com 6 bolsos chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda"
+  ]
+ },
+ "9542160056558": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão com 6 bolsos chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Corpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda curtinha"
+  ]
+ },
+ "9543504494830": {
+  "title": "Conjunto bermuda + top-blusa de compressão + manguito chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.\n\nManguito\n87% Poliamida\n13% Elastano\n\nCertificação Oeko-Tex®️ Standard 100: seguro para a pele e livre de substâncias tóxicas.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa",
+   "Bermuda",
+   "Manguito"
+  ]
+ },
+ "9543522975982": {
+  "title": "Conjunto bermuda + top-blusa de compressão com 6 bolsos + manguito chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão com 6 bolsos\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.\n\nManguito\n87% Poliamida\n13% Elastano\n\nCertificação Oeko-Tex®️ Standard 100: seguro para a pele e livre de substâncias tóxicas.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda",
+   "Manguito"
+  ]
+ },
+ "9543523008750": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão + manguito chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.\n\nManguito\n87% Poliamida\n13% Elastano\n\nCertificação Oeko-Tex®️ Standard 100: seguro para a pele e livre de substâncias tóxicas.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa",
+   "Bermuda curtinha",
+   "Manguito"
+  ]
+ },
+ "9543523041518": {
+  "title": "Conjunto bermuda curtinha + top-blusa de compressão com 6 bolsos + manguito chocolate",
+  "type": "Kits",
+  "tags": [
+   "Klubify"
+  ],
+  "color": "Chocolate",
+  "material": "Top-blusa de compressão com 6 bolsos\nCorpo: 70% poliamida e 30% elastano, forro: 88% poliamida e 12% elastano.\n\nBermuda curtinha de compressão\nCorpo: 70% poliamida e 30% elastano, forro: 100% poliamida. Biodegradável.\n\nManguito\n87% Poliamida\n13% Elastano\n\nCertificação Oeko-Tex®️ Standard 100: seguro para a pele e livre de substâncias tóxicas.",
+  "aviso": "| edição limitada",
+  "options": [
+   "Top-blusa com 6 bolsos",
+   "Bermuda curtinha",
+   "Manguito"
+  ]
+ }
+}

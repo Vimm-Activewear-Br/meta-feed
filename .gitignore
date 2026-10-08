@@ -1,0 +1,13 @@
+# heavy / local-only
+src/
+src2/
+out/
+out_add/
+meta-relatorios/
+skill/
+state/*.jpg
+state/storefront.json
+state/staged*.json
+state/review*.jpg
+__pycache__/
+.DS_Store

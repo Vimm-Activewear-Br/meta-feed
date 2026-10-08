@@ -1,0 +1,11 @@
+{
+  "_note": "Who goes into the Meta feed. Products failing any rule are left out (and reported if they are on the Facebook & Instagram channel).",
+  "exclude_ids": {
+    "9495240179950": "Garrafinha curvada (pedido da Mariana, 2026-10-08)",
+    "8710092554478": "Envelope para presente (pedido da Mariana, 2026-10-08)"
+  },
+  "min_price": 10,
+  "title_keywords": ["teste", "test", "não usar", "nao usar", "copy", "cópia", "copia", "amostra", "rascunho"],
+  "exclude_tags": ["teste", "test", "nao-meta", "não-meta"],
+  "bazar_collection": "gid://shopify/Collection/439003840750"
+}

@@ -1,0 +1,2 @@
+{"_note": "ACTIVE products NOT published on the Shopify 'Facebook & Instagram' channel (gid://shopify/Publication/119421960430). They aren't in the Meta catalog, so build_feed.py leaves them out (their rows would only produce 'ID não coincide'). Refresh each run.",
+ "ids": ["9529868681454", "9509360697582"]}
