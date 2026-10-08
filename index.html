@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vimm · Feed do Meta</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: Satoshi; src: url(assets/Satoshi-Regular.otf); font-weight: 400; }
+  @font-face { font-family: Satoshi; src: url(assets/Satoshi-Medium.otf); font-weight: 500; }
+  @font-face { font-family: Satoshi; src: url(assets/Satoshi-Bold.otf); font-weight: 700; }
+  @font-face { font-family: Satoshi; src: url(assets/Satoshi-Black.otf); font-weight: 900; }
+  :root {
+    --black: #2d2926; --off: #f2f2eb; --brown: #8e7361; --yellow: #e5ea39; --grey: #dad5d2;
+    --card: #ffffff; --brown-30: #ddd2c9; --red: #b4432f;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--off); color: var(--black); font: 400 15px/1.45 Satoshi, system-ui, sans-serif; }
+  header { background: var(--black); color: var(--off); padding: 20px 16px; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  header .wrap { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 0; }
+  header svg { height: 26px; width: auto; }
+  header .sub { font-weight: 500; opacity: .75; }
+  header .when { margin-left: auto; font-size: 13px; opacity: .75; text-align: right; }
+  h1 { font-weight: 900; letter-spacing: -0.03em; line-height: 1; font-size: clamp(32px, 6vw, 56px); margin: 36px 0 8px; }
+  h2 { font-weight: 900; letter-spacing: -0.02em; font-size: 24px; margin: 40px 0 14px; }
+  .lede { color: var(--brown); max-width: 680px; margin: 0; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-top: 28px; }
+  .kpi { background: var(--card); border-radius: 4px; padding: 16px 18px; }
+  .kpi b { display: block; font-weight: 900; font-size: 36px; letter-spacing: -0.03em; line-height: 1.1; }
+  .kpi span { color: var(--brown); font-size: 13px; font-weight: 500; }
+  .kpi.alert { background: var(--yellow); }
+  .kpi.alert span { color: var(--black); }
+  .alerts { display: grid; gap: 8px; }
+  .alert { background: var(--card); border-left: 6px solid var(--grey); padding: 12px 14px; border-radius: 2px; }
+  .alert.acao { border-color: var(--yellow); }
+  .alert.erro { border-color: var(--red); }
+  .alert small { display: block; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 11px; color: var(--brown); }
+  .ok { background: var(--card); padding: 14px; border-radius: 2px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters button { font: 500 13px Satoshi, sans-serif; border: 1px solid var(--black); background: transparent; color: var(--black);
+    border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--black); color: var(--off); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+  .card img { width: 100%; aspect-ratio: 1; object-fit: cover; background: var(--grey); display: block; }
+  .card .body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .card .t { font-weight: 700; font-size: 13px; line-height: 1.3; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; }
+  .chip { font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 999px; background: var(--off); }
+  .chip.y { background: var(--yellow); }
+  .chip.d { background: var(--black); color: var(--off); }
+  .chip.r { background: var(--red); color: #fff; }
+  .stock { font-size: 12px; color: var(--brown); font-weight: 500; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--off); font-size: 14px; }
+  td:last-child { color: var(--brown); }
+  pre { background: var(--black); color: var(--off); padding: 14px; border-radius: 4px; font-size: 12px; overflow-x: auto; white-space: pre-wrap; }
+  .feedlink { display: inline-flex; gap: 8px; align-items: center; background: var(--black); color: var(--off); padding: 10px 16px;
+    border-radius: 999px; text-decoration: none; font-weight: 700; margin-top: 18px; word-break: break-all; }
+  footer { color: var(--brown); font-size: 13px; padding: 40px 0 60px; }
+  .loading { padding: 60px 0; color: var(--brown); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="1328.91 107 632 130" fill="currentColor" aria-label="Vimm"> <path d="M1544.57,131.57v104h-104c2.08-57.81,47.85-104,104-104Z"></path> <path d="M1328.91,131.57v104s104,0,104,0c-2.08-57.81-47.85-104-104-104Z"></path> <path d="M1570.17,146.86h25.78l9.47,27.18c3.88,11.34,6.99,21.12,7.610,24.69.93-4.5,4.35-14.6,8.23-24.69l10.4-27.18h24.85l-32.46,77.65h-23.61l-30.28-77.65Z"></path> <path d="M1656.66,121.08c0-7.61,6.060-13.51,13.67-13.51s13.51,5.9,13.51,13.51-6.06,13.67-13.51,13.67-13.67-6.06-13.67-13.670ZM1658.53,146.86h23.92v77.65h-23.92v-77.65Z"></path> <path d="M1692.69,224.51v-77.65h22.36l1.55,8.08c3.88-5.44,11.49-10.56,22.67-10.56s19.1,5.44,23.61,13.67c4.04-8.23,13.2-13.67,24.38-13.67,20.03,0,29.97,11.65,29.97,29.35v50.78h-23.92v-44.1c0-9.78-5.12-14.44-12.73-14.44-6.83,0-13.67,3.73-13.67,16.93v41.62h-23.91v-44.1c0-9.630-4.97-14.29-12.58-14.29-6.83,0-13.82,3.73-13.82,16.77v41.62h-23.92Z"></path> <path d="M1826.55,224.51v-77.65h22.36l1.55,8.08c3.88-5.44,11.49-10.56,22.67-10.56s19.1,5.44,23.61,13.67c4.04-8.23,13.2-13.67,24.38-13.67,20.03,0,29.97,11.65,29.97,29.35v50.78h-23.92v-44.1c0-9.78-5.12-14.44-12.73-14.440-6.83,0-13.67,3.73-13.67,16.93v41.62h-23.91v-44.1c0-9.63-4.97-14.29-12.58-14.29-6.83,0-13.82,3.73-13.82,16.77v41.62h-23.92Z"></path> </svg>
+    <span class="sub">Feed do Meta</span>
+    <span class="when" id="when"></span>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="app" class="loading">Carregando o status do feed →</div>
+</main>
+
+<script>
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = iso => iso ? new Date(iso).toLocaleString("pt-BR", {day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit"}) : "–";
+const STATUS = { no_feed: ["no feed", "d"], sem_foto: ["sem foto quadrada", "y"], fora_canal: ["fora do canal FB", "r"] };
+const KIND = { conjunto: "Conjunto", bermuda: "Bermuda", top: "Top", acessorio: "Acessório", macaquinho: "Macaquinho" };
+
+fetch("status.json?" + Date.now()).then(r => r.json()).then(s => {
+  document.getElementById("when").innerHTML =
+    `Última mudança: <b>${fmt(s.updated_at)}</b><br>Última verificação: ${fmt(s.checked_at)}`;
+  const acts = s.alerts.filter(a => a.level !== "info").length;
+  const app = document.getElementById("app");
+  app.className = "";
+  app.innerHTML = `
+    <h1>Para sentir tudo,<br>menos o feed.</h1>
+    <p class="lede">O que está indo da Shopify para o catálogo do Meta: imagens quadradas, descrição curta, categoria e rótulos.
+      Estoque e preço vão direto da Shopify. Este painel se atualiza sozinho de hora em hora.</p>
+    <div class="kpis">
+      <div class="kpi"><b>${s.products_in_feed}</b><span>produtos no feed</span></div>
+      <div class="kpi"><b>${s.rows}</b><span>variantes (tamanhos)</span></div>
+      <div class="kpi"><b>${s.variants_in_stock}</b><span>variantes em estoque</span></div>
+      <div class="kpi ${acts ? "alert" : ""}"><b>${acts}</b><span>${acts ? "precisam de ação" : "nada para fazer"}</span></div>
+    </div>
+
+    <h2>Avisos</h2>
+    ${s.alerts.length ? `<div class="alerts">${s.alerts.map(a => `<div class="alert ${a.level}">
+        <small>${a.level === "acao" ? "Ação" : a.level === "erro" ? "Erro" : "Info"}</small>${esc(a.text)}</div>`).join("")}</div>`
+      : `<div class="ok">Tudo certo. Nenhum produto pendente →</div>`}
+
+    <h2>Produtos</h2>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+
+    <h2>Fora do feed</h2>
+    <table>${s.excluded.map(e => `<tr><td>${esc(e.title)}</td><td>${esc(e.reason)}</td></tr>`).join("")}</table>
+
+    <h2>Últimas atualizações</h2>
+    <pre>${s.log.length ? s.log.map(esc).join("\n") : "Sem registros ainda."}</pre>
+
+    <a class="feedlink" href="${esc(s.feed_url)}">Arquivo do feed (CSV) →</a>
+  `;
+
+  const filters = [["todos", "Todos"], ["acao", "Pendentes"], ["conjunto", "Conjuntos"], ["bermuda", "Bermudas"], ["top", "Tops"],
+    ...[...new Set(s.products.map(p => p.color).filter(Boolean))].map(c => ["cor:" + c, c])];
+  let active = "todos";
+  const fbox = document.getElementById("filters"), grid = document.getElementById("grid");
+  const match = (p, f) => f === "todos" || (f === "acao" ? p.status !== "no_feed" : f.startsWith("cor:") ? p.color === f.slice(4) : p.kind === f);
+  const draw = () => {
+    fbox.innerHTML = filters.map(([k, l]) => `<button aria-pressed="${k === active}" data-k="${esc(k)}">${esc(l)}</button>`).join("");
+    grid.innerHTML = s.products.filter(p => match(p, active)).map(p => {
+      const [lbl, cls] = STATUS[p.status];
+      return `<a class="card" href="${esc(p.link)}" target="_blank" rel="noopener">
+        <img loading="lazy" src="${esc(p.image)}" alt="">
+        <div class="body">
+          <div class="t">${esc(p.title)}</div>
+          <div class="stock">${p.in_stock}/${p.variants} tamanhos em estoque · ${p.extras} fotos extras</div>
+          <div class="chips">
+            <span class="chip ${cls}">${lbl}</span>
+            ${p.linha === "edicao_limitada" ? `<span class="chip">edição limitada</span>` : ""}
+            ${p.momento && p.momento !== "regular" ? `<span class="chip y">${esc(p.momento.replace("_", " "))}</span>` : ""}
+          </div>
+        </div></a>`;
+    }).join("");
+  };
+  fbox.addEventListener("click", e => { const b = e.target.closest("button"); if (b) { active = b.dataset.k; draw(); } });
+  draw();
+}).catch(() => { document.getElementById("app").textContent = "Não consegui carregar o status agora. Tente recarregar a página."; });
+</script>
+<footer class="wrap">Vimm Activewear · gerado automaticamente a partir da Shopify. Não edite os arquivos deste repositório à mão.</footer>
+</body>
+</html>
