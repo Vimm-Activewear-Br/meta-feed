@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 544,
+ "variants_in_stock": 533,
  "alerts": [
   {
    "level": "info",
@@ -333,7 +333,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244620390638-46351199600878.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 35,
+   "in_stock": 28,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-preto"
   },
   {
@@ -529,7 +529,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244617867502-47191339729134.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 15,
+   "in_stock": 12,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-preto"
   },
   {
@@ -823,7 +823,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9234560549102-46334880579822.jpg?format=pjpg&width=300",
    "extras": 0,
    "variants": 5,
-   "in_stock": 5,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/top-blusa-com-bolsos-preto"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-08T17:11",
- "checked_at": "2026-10-11T20:43"
+ "updated_at": "2026-10-12T02:57",
+ "checked_at": "2026-10-12T02:57"
 }
