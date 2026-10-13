@@ -10,7 +10,10 @@ def find_targets(d):
             t = find_targets(v)
             if t: return t
     return None
+seen = set()
 for t in find_targets(json.load(open(sys.argv[1]))):
+    if t["resourceUrl"].rsplit("/", 1)[-1] in seen: continue  # duplicated inputs: upload once
+    seen.add(t["resourceUrl"].rsplit("/", 1)[-1])
     name = t["resourceUrl"].rsplit("/", 1)[-1]
     local = name
     if name.startswith("meta-sq-add-"): local = f"out_add/{name[len('meta-sq-add-'):-4]}.jpg"
