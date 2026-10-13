@@ -1,5 +1,10 @@
 # Vimm · Meta square images + supplementary feed
 
+**Main image rule (Mariana, 2026-10-13): always photo 1 on Shopify.** `process.py` squares photo 1 of every product
+whose recorded `source_file` differs. Clean side margins → extend the backdrop; body on the side → tops: fill the
+sides with the photo's own beige (face + garment intact, `pad_square`); other closeups: square crop of the most
+detailed band. If photo 1 doesn't work as a square, tell the team to change photo 1 on Shopify; never pick another.
+
 This folder is the git repo github.com/Vimm-Activewear-Br/meta-feed (public; no secrets in here). Locally it lives in
 `~/Vimm/meta-feed`. Heavy/local-only folders (src*, out*, review images, Meta reports) are in .gitignore.
 
