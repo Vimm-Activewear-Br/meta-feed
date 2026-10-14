@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 526,
+ "variants_in_stock": 554,
  "alerts": [
   {
    "level": "info",
@@ -277,7 +277,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9543522975982-40656423026926.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 60,
-   "in_stock": 30,
+   "in_stock": 40,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-manguito-chocolate"
   },
   {
@@ -305,7 +305,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9542159728878-40673524842734.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 20,
-   "in_stock": 15,
+   "in_stock": 20,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-chocolate"
   },
   {
@@ -473,7 +473,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9543523041518-40656422142190.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 60,
-   "in_stock": 24,
+   "in_stock": 32,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-manguito-chocolate"
   },
   {
@@ -501,7 +501,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9542160056558-40656420405486.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 20,
-   "in_stock": 12,
+   "in_stock": 16,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-chocolate"
   },
   {
@@ -795,7 +795,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9495239524590-48277077786862-v2.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 5,
-   "in_stock": 3,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/top-blusa-de-compressao-com-6-bolsos-chocolate"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-13T20:51",
- "checked_at": "2026-10-14T07:12"
+ "updated_at": "2026-10-14T12:09",
+ "checked_at": "2026-10-14T12:09"
 }
