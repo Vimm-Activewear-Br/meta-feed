@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 645,
+ "variants_in_stock": 678,
  "alerts": [
   {
    "level": "info",
@@ -67,7 +67,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928775406-47101197517038.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 7,
-   "in_stock": 1,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/bermuda-original-amora"
   },
   {
@@ -95,7 +95,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928742638-47101194305774.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 7,
-   "in_stock": 1,
+   "in_stock": 2,
    "link": "https://www.vimmactivewear.com/products/bermuda-curtinha-amora"
   },
   {
@@ -137,7 +137,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8853532770542-44146400657646.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 7,
-   "in_stock": 6,
+   "in_stock": 5,
    "link": "https://www.vimmactivewear.com/products/shorts-de-compressao-preto"
   },
   {
@@ -179,7 +179,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312318783726-38887578173678.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 1,
+   "in_stock": 12,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-com-bolso-amora"
   },
   {
@@ -249,7 +249,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312317604078-47101197353198.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 0,
+   "in_stock": 8,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-amora"
   },
   {
@@ -291,7 +291,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312214352110-38887581122798.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 1,
+   "in_stock": 12,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-amora"
   },
   {
@@ -375,7 +375,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312319209710-38887581974766.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 30,
-   "in_stock": 1,
+   "in_stock": 6,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-nadador-de-compressao-com-bolso-amora"
   },
   {
@@ -417,7 +417,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244746744046-47191339565294.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 12,
+   "in_stock": 10,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-nadador-de-compressao-com-bolso-preto"
   },
   {
@@ -445,7 +445,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312311148782-38887580631278.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 0,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-marinho-1"
   },
   {
@@ -487,7 +487,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312307937518-38911421120750.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 30,
-   "in_stock": 1,
+   "in_stock": 6,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-marinho-1"
   },
   {
@@ -529,7 +529,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244617867502-47191339729134.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 30,
+   "in_stock": 25,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-preto"
   },
   {
@@ -557,7 +557,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8934474907886-44867405709550.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 35,
-   "in_stock": 24,
+   "in_stock": 20,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-preto"
   },
   {
@@ -571,7 +571,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245952868590-46343716569326.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 28,
-   "in_stock": 24,
+   "in_stock": 20,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-nadador-de-compressao-com-bolso-branco"
   },
   {
@@ -585,7 +585,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245922754798-47191339466990.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 6,
+   "in_stock": 5,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-blusa-de-compressao-branco"
   },
   {
@@ -599,7 +599,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245962502382-47191335698670.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 24,
+   "in_stock": 20,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-blusa-de-compressao-com-6-bolsos-branco"
   },
   {
@@ -655,7 +655,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928808174-47125509505262-v2.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 5,
-   "in_stock": 1,
+   "in_stock": 3,
    "link": "https://www.vimmactivewear.com/products/top-nadador-com-bolso-amora"
   },
   {
@@ -725,7 +725,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928840942-47125380858094-v2.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 5,
-   "in_stock": 0,
+   "in_stock": 2,
    "link": "https://www.vimmactivewear.com/products/top-blusa-amora"
   },
   {
@@ -767,7 +767,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928906478-38887579779310-v2.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 5,
-   "in_stock": 1,
+   "in_stock": 3,
    "link": "https://www.vimmactivewear.com/products/top-blusa-com-bolsos-amora"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-16T14:24",
- "checked_at": "2026-10-16T14:24"
+ "updated_at": "2026-10-16T18:08",
+ "checked_at": "2026-10-16T18:08"
 }
