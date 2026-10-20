@@ -39,7 +39,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9529868681454-48181498708206.jpg?format=pjpg&width=300",
    "extras": 0,
    "variants": 10,
-   "in_stock": 10,
+   "in_stock": 0,
    "link": "https://www.vimmactivewear.com/products/macaquinho-de-triathlon-volta-vimm"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-16T18:08",
- "checked_at": "2026-10-19T21:19"
+ "updated_at": "2026-10-20T03:00",
+ "checked_at": "2026-10-20T03:00"
 }
