@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 651,
+ "variants_in_stock": 644,
  "alerts": [
   {
    "level": "info",
@@ -249,7 +249,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312317604078-47101197353198.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 8,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-amora"
   },
   {
@@ -445,7 +445,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9312311148782-38887580631278.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 4,
+   "in_stock": 2,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-marinho-1"
   },
   {
@@ -725,7 +725,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9306928840942-47125380858094-v2.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 5,
-   "in_stock": 2,
+   "in_stock": 1,
    "link": "https://www.vimmactivewear.com/products/top-blusa-amora"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-22T12:16",
- "checked_at": "2026-10-28T05:31"
+ "updated_at": "2026-10-28T13:02",
+ "checked_at": "2026-10-28T13:02"
 }
