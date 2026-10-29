@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 615,
+ "variants_in_stock": 664,
  "alerts": [
   {
    "level": "info",
@@ -137,7 +137,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8853532770542-44146400657646.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 7,
-   "in_stock": 5,
+   "in_stock": 6,
    "link": "https://www.vimmactivewear.com/products/shorts-de-compressao-preto"
   },
   {
@@ -221,7 +221,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244680749294-46335807258862.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 14,
+   "in_stock": 28,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-com-bolso-marinho-1"
   },
   {
@@ -417,7 +417,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244746744046-47191339565294.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 10,
+   "in_stock": 24,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-nadador-de-compressao-com-bolso-preto"
   },
   {
@@ -529,7 +529,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244617867502-47191339729134.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 25,
+   "in_stock": 30,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-preto"
   },
   {
@@ -557,7 +557,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8934474907886-44867405709550.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 35,
-   "in_stock": 20,
+   "in_stock": 24,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-preto"
   },
   {
@@ -571,7 +571,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245952868590-46343716569326.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 28,
-   "in_stock": 20,
+   "in_stock": 24,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-nadador-de-compressao-com-bolso-branco"
   },
   {
@@ -585,7 +585,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245922754798-47191339466990.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 5,
+   "in_stock": 6,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-blusa-de-compressao-branco"
   },
   {
@@ -599,7 +599,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245962502382-47191335698670.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 20,
+   "in_stock": 24,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-blusa-de-compressao-com-6-bolsos-branco"
   },
   {
@@ -711,7 +711,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9234565071086-46334536024302-v2.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 5,
-   "in_stock": 2,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/top-nadador-com-bolso-preto"
   },
   {
@@ -892,6 +892,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-10-28T21:56",
- "checked_at": "2026-10-29T11:18"
+ "updated_at": "2026-10-29T17:17",
+ "checked_at": "2026-10-29T17:17"
 }
