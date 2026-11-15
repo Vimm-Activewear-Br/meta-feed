@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 506,
+ "variants_in_stock": 479,
  "alerts": [],
  "products": [
   {
@@ -44,7 +44,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9495239655662-48277079785710.jpg?format=pjpg&width=300",
    "extras": 6,
    "variants": 7,
-   "in_stock": 5,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/bermuda-de-compressao-chocolate"
   },
   {
@@ -156,7 +156,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9542154158318-40656421290222.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 20,
-   "in_stock": 10,
+   "in_stock": 8,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-com-bolso-chocolate"
   },
   {
@@ -198,7 +198,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9543504494830-40656422306030.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 60,
-   "in_stock": 40,
+   "in_stock": 32,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-manguito-chocolate"
   },
   {
@@ -226,7 +226,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9542159040750-40656423518446.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 20,
-   "in_stock": 20,
+   "in_stock": 16,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-chocolate"
   },
   {
@@ -240,7 +240,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9543522975982-40656423026926.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 60,
-   "in_stock": 40,
+   "in_stock": 32,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-manguito-chocolate"
   },
   {
@@ -268,7 +268,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9542159728878-40673524842734.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 20,
-   "in_stock": 20,
+   "in_stock": 16,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-chocolate"
   },
   {
@@ -855,6 +855,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-11-14T18:29",
- "checked_at": "2026-11-15T06:25"
+ "updated_at": "2026-11-15T14:10",
+ "checked_at": "2026-11-15T14:10"
 }
