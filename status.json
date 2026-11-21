@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 658,
+ "variants_in_stock": 641,
  "alerts": [],
  "products": [
   {
@@ -86,7 +86,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8916984365294-46869495611630.jpg?format=pjpg&width=300",
    "extras": 5,
    "variants": 7,
-   "in_stock": 5,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/shorts-de-compressao-marinho"
   },
   {
@@ -282,7 +282,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244621209838-46334351900910.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 24,
-   "in_stock": 6,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-blusa-de-compressao-com-6-bolsos-marinho"
   },
   {
@@ -366,7 +366,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244682584302-46336255197422.jpg?format=pjpg&width=300",
    "extras": 0,
    "variants": 35,
-   "in_stock": 15,
+   "in_stock": 12,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-nadador-de-compressao-com-bolso-marinho"
   },
   {
@@ -478,7 +478,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244616392942-46335775998190.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 15,
+   "in_stock": 8,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-com-6-bolsos-marinho"
   },
   {
@@ -506,7 +506,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8934475071726-44867404005614.jpg?format=pjpg&width=300",
    "extras": 6,
    "variants": 35,
-   "in_stock": 15,
+   "in_stock": 12,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-marinho"
   },
   {
@@ -772,7 +772,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9235902169326-46334351868142-v2.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 5,
-   "in_stock": 3,
+   "in_stock": 2,
    "link": "https://www.vimmactivewear.com/products/top-blusa-com-bolsos-marinho"
   },
   {
@@ -855,6 +855,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-11-20T08:44",
- "checked_at": "2026-11-21T06:52"
+ "updated_at": "2026-11-21T14:31",
+ "checked_at": "2026-11-21T14:31"
 }
