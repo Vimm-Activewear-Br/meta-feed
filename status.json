@@ -184,7 +184,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244680749294-46335807258862.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 21,
+   "in_stock": 28,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-top-nadador-de-compressao-com-bolso-marinho-1"
   },
   {
@@ -324,7 +324,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8664969183470-42072725749998.jpg?format=pjpg&width=300",
    "extras": 1,
    "variants": 35,
-   "in_stock": 28,
+   "in_stock": 21,
    "link": "https://www.vimmactivewear.com/products/conjunto-de-compressao-preto"
   },
   {
@@ -380,7 +380,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9244746744046-47191339565294.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 35,
-   "in_stock": 15,
+   "in_stock": 20,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-nadador-de-compressao-com-bolso-preto"
   },
   {
@@ -520,7 +520,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8934474907886-44867405709550.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 35,
-   "in_stock": 20,
+   "in_stock": 15,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-preto"
   },
   {
@@ -674,7 +674,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9234565071086-46334536024302-v2.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 5,
-   "in_stock": 3,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/top-nadador-com-bolso-preto"
   },
   {
@@ -814,7 +814,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8293708923118-42981860507886-v2.jpg?format=pjpg&width=300",
    "extras": 3,
    "variants": 5,
-   "in_stock": 4,
+   "in_stock": 3,
    "link": "https://www.vimmactivewear.com/products/top-blusa"
   }
  ],
@@ -855,6 +855,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-11-22T21:52",
- "checked_at": "2026-11-23T06:04"
+ "updated_at": "2026-11-23T18:23",
+ "checked_at": "2026-11-23T18:23"
 }
