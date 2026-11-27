@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 623,
+ "variants_in_stock": 636,
  "alerts": [],
  "products": [
   {
@@ -548,7 +548,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245922754798-47191339466990.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 28,
-   "in_stock": 0,
+   "in_stock": 5,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-preta-top-blusa-de-compressao-branco"
   },
   {
@@ -590,7 +590,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9245916791022-46343596998894.jpg?format=pjpg&width=300",
    "extras": 6,
    "variants": 28,
-   "in_stock": 0,
+   "in_stock": 7,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-preta-top-blusa-de-compressao-branco"
   },
   {
@@ -702,7 +702,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-9235891749102-47183607070958-v2.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 5,
-   "in_stock": 0,
+   "in_stock": 1,
    "link": "https://www.vimmactivewear.com/products/top-blusa-branco"
   },
   {
@@ -855,6 +855,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-11-24T14:43",
- "checked_at": "2026-11-26T20:53"
+ "updated_at": "2026-11-27T05:31",
+ "checked_at": "2026-11-27T05:31"
 }
