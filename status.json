@@ -2,7 +2,7 @@
  "feed_url": "https://raw.githubusercontent.com/Vimm-Activewear-Br/meta-feed/main/vimm-meta-supplementary-feed.csv",
  "rows": 1233,
  "products_in_feed": 58,
- "variants_in_stock": 636,
+ "variants_in_stock": 629,
  "alerts": [],
  "products": [
   {
@@ -310,7 +310,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8598893494510-44091710537966.jpg?format=pjpg&width=300",
    "extras": 4,
    "variants": 30,
-   "in_stock": 6,
+   "in_stock": 4,
    "link": "https://www.vimmactivewear.com/products/conjunto-azul-marinho"
   },
   {
@@ -506,7 +506,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8934475071726-44867404005614.jpg?format=pjpg&width=300",
    "extras": 6,
    "variants": 35,
-   "in_stock": 12,
+   "in_stock": 8,
    "link": "https://www.vimmactivewear.com/products/conjunto-bermuda-curtinha-top-blusa-de-compressao-marinho"
   },
   {
@@ -800,7 +800,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0667/0961/8926/files/meta-sq-8598842147054-41496486936814-v2.jpg?format=pjpg&width=300",
    "extras": 2,
    "variants": 5,
-   "in_stock": 3,
+   "in_stock": 2,
    "link": "https://www.vimmactivewear.com/products/top-blusa-de-compressao-marinho"
   },
   {
@@ -855,6 +855,6 @@
  "log": [
   "2026-10-08 17:07 ERRO: CalledProcessError(1, ['/Library/Developer/CommandLineTools/usr/bin/python3', 'refresh_products.py'])"
  ],
- "updated_at": "2026-11-27T05:31",
- "checked_at": "2026-11-27T15:58"
+ "updated_at": "2026-11-27T22:59",
+ "checked_at": "2026-11-27T22:59"
 }
